@@ -1,0 +1,78 @@
+body {
+  background-color: #e9ebee;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a { color: #1176b6;}
+a:hover {text-decoration: underline;}
+
+/* --- Header --- */
+header {
+  background: #1176b6;
+  padding: 10px 0;
+}
+
+
+/* --- Logo --- */
+header .logo img {
+  height: 22px;
+}
+
+/* --- Buscar --- */
+header .buscar form input[type="text"] {
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-size: 12px;
+  padding: 0 10px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 3px 0 0 3px;
+  color: #5d5d5d;
+  font-family: 'Open Sans', Helvetica, sans-serif; 
+}
+
+header .buscar form button {
+  width: 100%;
+  background: #099efc;
+  border: none;
+  font-size: 12px;
+  padding: 0 10px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  color: #fff;
+  transition: ease 500ms;
+}
+
+header .buscar form button:hover {
+  background: #32acf8;
+  color: #5d5d5d;
+}
+
+/* --- Menu --- */
+header .menu {
+  padding: 0;  
+}
+
+header .menu a {
+  color: rgba(255, 255, 255, .5);
+  text-decoration: none;
+  transition: ease 500ms;
+}
+
+header .menu a:hover {
+  color: #fff;
+}
+
+header .menu .imagem  {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+header .menu .imagem  {
+  border-radius: 20px;
+}
