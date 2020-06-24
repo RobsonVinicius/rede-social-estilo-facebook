@@ -76,3 +76,35 @@ header .menu .imagem  {
 header .menu .imagem  {
   border-radius: 20px;
 }
+
+/* --- Main --- */
+main {
+  padding-top: 20px;
+}
+
+/* --- Barra Lateral --- */
+main .barra-lateral-esquerda {
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+main .barra-lateral-esquerda nav {
+  border-bottom: 1px solid #c7c8ca;
+  padding-bottom: 20px;
+}
+
+main .barra-lateral-esquerda nav a {
+  display: block;
+  padding: 3px 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #3d3c3c;
+}
+
+main .barra-lateral-esquerda nav a:hover {
+  background: #f2f2f2;
+  text-decoration: none;
+}
+
+main .barra-lateral-esquerda nav a i {
+  margin-right: 8px;
+}

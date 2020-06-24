@@ -13,10 +13,10 @@
   <header>
     <div class="container">
       <div class="row justify-content-start">
-        <div class="col-auto logo d-none d-sm-block">
+        <div class="col-auto d-none d-sm-block logo">
           <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
-        <div class="col buscar col-12 col-sm-8 col-lg-6 order-1 order-sm-0">
+        <div class="col-12 col-sm-7 col-lg-6 order-1 order-sm-0 buscar">
           <form action="">
             <div class="row no-gutters align-items-center">
               <div class="coluna col-10">
@@ -28,7 +28,7 @@
             </div>
           </form>
         </div>
-        <nav class="col-12 col-sm-3 col-lg-2 menu d-flex justify-content-between ml-auto">
+        <nav class="col-12 col-sm-3 col-lg-2 d-flex justify-content-between ml-auto menu">
           <a href="#" class="icon-users"></a>
           <a href="#" class="icon-bell-alt"></a>
           <a href="#" class="icon-chat"></a>
@@ -37,7 +37,22 @@
       </div>
     </div>
   </header>
-  <main></main>
+  <main class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 barra-lateral-esquerda" id="barra-lateral-esquerda">
+        <nav>
+          <a href="#"><i class="icon-users"></i>Amigos</a>
+          <a href="#"><i class="icon-mail"></i>Mensagens Privadas</a>
+          <a href="#"><i class="icon-thumbs-up"></i>Páginas</a>
+          <a href="#"><i class="icon-play"></i>Vídeos</a>
+          <a href="#"><i class="icon-picture"></i>Imagens</a>
+          <a href="#"><i class="icon-music"></i>Músicas</a>
+          <a href="#"><i class="icon-book"></i>Livros</a>          
+        </nav>
+      </div>
+    </div>
+
+  </main>
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/menu.js"></script>
