@@ -174,3 +174,25 @@ main .conteudo-principal .publicar form button {
 main .conteudo-principal .publicar form button:hover {
   background: linear-gradient(to bottom, #1176b6 0%, #1a87cd 100%);
 }
+
+/* --- Publicacoes --- */
+main .publicacao {
+  margin-bottom: 40px;
+}
+
+main .publicacao .foto {
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+main .publicacao .foto a {
+  display: inline-block; 
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 60px;
+}
+
+main .publicacao .foto a img {
+  width: 100%
+}
