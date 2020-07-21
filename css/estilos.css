@@ -196,3 +196,80 @@ main .publicacao .foto a {
 main .publicacao .foto a img {
   width: 100%
 }
+
+main .publicacao .nome {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 16px;  
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+main .publicacao .texto {
+  background: #fff;
+  color: #3d3c3c;
+  font-size: 14px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+main .publicacao .post .caixa-botoes button {
+  background: #1176b6;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+  border: none;
+}
+
+main .publicacao .post .caixa-botoes button:hover {
+  background: #0d659d;
+}
+
+main .publicacao .post .caixa-botoes p {
+  margin-bottom: 0;
+  color: #1782c6;
+}
+
+/* --- Comentários --- */
+main .publicacao .comentario {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+main .publicacao .comentario .foto {
+  padding: 0;
+  margin-right: 10px
+}
+
+main .publicacao .comentario .foto a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+main .publicacao .comentario form textarea {
+  width: 100%;
+  background: #fff; 
+  border: 1px solid #cbcbcb;
+  color: #565656;
+  padding: 0px;
+  min-height: 40px;
+  height: 40px;
+  min-width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+main .publicacao .comentario .resposta {
+  font-size: 14px;
+  margin-bottom: 10px;  
+}
+
+main .publicacao .comentario .gostei{
+  font-size: 14px;
+}
