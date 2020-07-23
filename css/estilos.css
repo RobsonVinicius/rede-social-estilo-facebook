@@ -287,3 +287,41 @@ main .publicacao .comentario .resposta {
 main .publicacao .comentario .gostei {
   font-size: 14px;
 }
+
+
+/* --- Barra Direita -- */
+main .barra-lateral-direita h3 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+main .barra-lateral-direita .ads {
+  /* margin-bottom: 20px; */
+}
+
+main .barra-lateral-direita .ads a {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+main .barra-lateral-direita .ads a img {
+  width: 100%;  
+}
+
+/* --- Footer -- */
+main footer {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+main footer a {
+  color: #1176b6;
+  line-height: 14px;
+  margin-right: 10px;
+}
+
+main footer .copyright {
+  color: #919191;
+  margin-top: 10px;
+}
