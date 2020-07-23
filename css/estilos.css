@@ -296,9 +296,9 @@ main .barra-lateral-direita h3 {
   text-align: center;
 }
 
-main .barra-lateral-direita .ads {
-  /* margin-bottom: 20px; */
-}
+/* main .barra-lateral-direita .ads {
+  margin-bottom: 20px;
+} */
 
 main .barra-lateral-direita .ads a {
   margin-bottom: 15px;
@@ -325,3 +325,74 @@ main footer .copyright {
   color: #919191;
   margin-top: 10px;
 }
+
+/* --- Mediaqueries --- */
+@media screen and (max-width: 767px) {
+  main .btn-menu { 
+    display: block;
+    border: 1px solid #00609c;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: linear-gradient(to bottom, #1a87cd 0%, #1176b6 100%);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  main .btn-menu:hover {
+    background: #0d659d;
+    text-decoration: none;
+  }
+
+  main .fundo-link { 
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .5);
+    z-index: 99;
+    display: none;
+  } 
+
+  main .fundo-link.active {
+    display: block;
+  } 
+
+  main .barra-lateral-esquerda {
+    width: 85%;
+    position: fixed;
+    background: rgba(0, 0, 0, .85);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: all .3s ease;
+    overflow: scroll    
+  }
+
+  main .barra-lateral-esquerda.active {
+    transform: translateX(0%);
+  }
+
+  main .barra-lateral-esquerda nav {
+    border-bottom: none;
+  }
+
+  main .barra-lateral-esquerda nav a {
+    padding: 20px;
+    color: #fff;
+  }
+
+  main .barra-lateral-esquerda nav a:hover {
+    color: #3d3c3c;
+    background: #fff;
+  }
+} 
+
