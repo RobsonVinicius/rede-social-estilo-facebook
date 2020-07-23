@@ -396,3 +396,12 @@ main footer .copyright {
   }
 } 
 
+@media screen and (max-width: 575px) {
+  header .menu {
+    padding: 0 15px 15px 15px;
+  }
+
+  main .conteudo-principal .publicar .foto a {
+    
+  }
+}
